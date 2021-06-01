@@ -60,7 +60,7 @@ namespace WinFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("1)This program works only with english words\n2)The decimal separator is a comma","Please, read this!",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
 
         private void button1_Click(object sender, EventArgs e)
